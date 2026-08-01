@@ -1,8 +1,31 @@
 aid: solvely-ai
 name: Solvely Ai
-description: Solvely Ai is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Solvely is an all-in-one AI study platform for students from K-12 through
+  graduate level, trusted by more than 10 million students across 5,000+
+  universities worldwide. It combines multi-model homework help with
+  step-by-step solutions, an AI note taker that transcribes lectures into
+  structured notes, a quiz maker, an essay writer, math and equation solvers
+  (algebra, geometry, calculus, statistics), auto-generated flashcards and study
+  guides, mock exams, an exam predictor, and cheat sheets. Solvely is available
+  on the web, iOS, Android, and as a Chrome/Edge browser extension, with free
+  and paid (Solvely Unlimited) tiers. It is a consumer-facing product and does
+  not currently publish a public API, developer portal, or SDKs. This profile
+  was surfaced as a portfolio company of Canaan Partners and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/solvely-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://img.justsolvely.com/waio/edit-image/2026/07/01/43f5f6dd-3888-43b2-88d5-a63ad4228635.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Education
+- EdTech
+- Study Tools
+- Homework Help
+- Machine Learning
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://solvely.ai
+- type: Pricing
+  url: https://solvely.ai/pricing
+- type: Blog
+  url: https://solvely.ai/blog
+- type: TermsOfService
+  url: https://solvely.ai/term
+- type: PrivacyPolicy
+  url: https://solvely.ai/privacy-policy
+- type: Login
+  url: https://solvely.ai/login
+- type: Support
+  url: https://solvely.ai/contact
+- type: HelpCenter
+  url: https://solvely.ai/help
+- type: DomainSecurity
+  url: security/solvely-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
