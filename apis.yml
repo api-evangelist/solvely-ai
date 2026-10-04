@@ -53,7 +53,7 @@ tags:
 - EdTech
 - Study Tools
 - Homework Help
-- Machine-Learning
+- Machine Learning
 - Consumer
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Homework Help
 - Machine Learning
 - Consumer
+- Machine-Learning
 apis: []
 common:
 - type: Website
